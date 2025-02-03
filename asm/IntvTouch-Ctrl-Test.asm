@@ -1671,25 +1671,25 @@ ENDM
 ;;  EOF: pm:mac:lang:mult                                                   ;;
 ;; ======================================================================== ;;
 
-	;FILE IntvTouch_Ctrl_Test.bas
+	;FILE IntvTouch-Ctrl-Test.bas
 	;[1] ' =========================================================================
-	SRCFILE "IntvTouch_Ctrl_Test.bas",1
+	SRCFILE "IntvTouch-Ctrl-Test.bas",1
 	;[2] ' IntyBASIC Project: InvtTouch
-	SRCFILE "IntvTouch_Ctrl_Test.bas",2
+	SRCFILE "IntvTouch-Ctrl-Test.bas",2
 	;[3] ' -------------------------------------------------------------------------
-	SRCFILE "IntvTouch_Ctrl_Test.bas",3
+	SRCFILE "IntvTouch-Ctrl-Test.bas",3
 	;[4] ' =========================================================================
-	SRCFILE "IntvTouch_Ctrl_Test.bas",4
+	SRCFILE "IntvTouch-Ctrl-Test.bas",4
 	;[5] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",5
+	SRCFILE "IntvTouch-Ctrl-Test.bas",5
 	;[6] 'OPTION EXPLICIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",6
+	SRCFILE "IntvTouch-Ctrl-Test.bas",6
 	;[7] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",7
+	SRCFILE "IntvTouch-Ctrl-Test.bas",7
 	;[8] ' Include useful predefined constants
-	SRCFILE "IntvTouch_Ctrl_Test.bas",8
+	SRCFILE "IntvTouch-Ctrl-Test.bas",8
 	;[9] INCLUDE "constants.bas"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",9
+	SRCFILE "IntvTouch-Ctrl-Test.bas",9
 	;FILE constants.bas
 	;[1] REM -------------------------------------------------------------------------
 	SRCFILE "constants.bas",1
@@ -3168,45 +3168,45 @@ ENDM
 	;[743] REM -------------------------------------------------------------------------
 	SRCFILE "constants.bas",743
 	;ENDFILE
-	;FILE IntvTouch_Ctrl_Test.bas
+	;FILE IntvTouch-Ctrl-Test.bas
 	;[10] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",10
+	SRCFILE "IntvTouch-Ctrl-Test.bas",10
 	;[11] ' =========================================================================
-	SRCFILE "IntvTouch_Ctrl_Test.bas",11
+	SRCFILE "IntvTouch-Ctrl-Test.bas",11
 	;[12] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",12
+	SRCFILE "IntvTouch-Ctrl-Test.bas",12
 	;[13] DEF FN TextCenterPos(aLength, aRow)  = SCREENPOS((((BACKGROUND_COLUMNS - aLength) + 1) / 2), aRow)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",13
+	SRCFILE "IntvTouch-Ctrl-Test.bas",13
 	;[14] DEF FN SpritePosX(aColumn, anOffset) = ((aColumn + 1) * 8 ) + anOffset
-	SRCFILE "IntvTouch_Ctrl_Test.bas",14
+	SRCFILE "IntvTouch-Ctrl-Test.bas",14
 	;[15] DEF FN SpritePosY(aRow, anOffset)    = ((aRow    + 1) * 8) + anOffset
-	SRCFILE "IntvTouch_Ctrl_Test.bas",15
+	SRCFILE "IntvTouch-Ctrl-Test.bas",15
 	;[16] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",16
+	SRCFILE "IntvTouch-Ctrl-Test.bas",16
 	;[17] ' ============================
-	SRCFILE "IntvTouch_Ctrl_Test.bas",17
+	SRCFILE "IntvTouch-Ctrl-Test.bas",17
 	;[18] ' Draw Classic Title Screen
-	SRCFILE "IntvTouch_Ctrl_Test.bas",18
+	SRCFILE "IntvTouch-Ctrl-Test.bas",18
 	;[19] ' ============================
-	SRCFILE "IntvTouch_Ctrl_Test.bas",19
+	SRCFILE "IntvTouch-Ctrl-Test.bas",19
 	;[20] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",20
+	SRCFILE "IntvTouch-Ctrl-Test.bas",20
 	;[21] ' Set Screen Mode to "Color Stack" and define the stack
-	SRCFILE "IntvTouch_Ctrl_Test.bas",21
+	SRCFILE "IntvTouch-Ctrl-Test.bas",21
 	;[22] MODE   SCREEN_COLOR_STACK, STACK_BROWN, STACK_BLACK, STACK_BROWN, STACK_BLACK
-	SRCFILE "IntvTouch_Ctrl_Test.bas",22
+	SRCFILE "IntvTouch-Ctrl-Test.bas",22
 	MVII #45067,R0
 	MVO R0,_color
 	MVII #2,R0
 	MVO R0,_mode_select
 	;[23] BORDER BORDER_BROWN
-	SRCFILE "IntvTouch_Ctrl_Test.bas",23
+	SRCFILE "IntvTouch-Ctrl-Test.bas",23
 	MVII #11,R0
 	MVO R0,_border_color
 	;[24] 'DEFINE DEF00,5,Graphics
-	SRCFILE "IntvTouch_Ctrl_Test.bas",24
+	SRCFILE "IntvTouch-Ctrl-Test.bas",24
 	;[25] DEFINE DEF00,10,Graphics
-	SRCFILE "IntvTouch_Ctrl_Test.bas",25
+	SRCFILE "IntvTouch-Ctrl-Test.bas",25
 	CLRR R0
 	MVO R0,_gram_target
 	MVII #10,R0
@@ -3214,16 +3214,16 @@ ENDM
 	MVII #label_GRAPHICS,R0
 	MVO R0,_gram_bitmap
 	;[26] CLS
-	SRCFILE "IntvTouch_Ctrl_Test.bas",26
+	SRCFILE "IntvTouch-Ctrl-Test.bas",26
 	CALL CLRSCR
 	;[27] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",27
+	SRCFILE "IntvTouch-Ctrl-Test.bas",27
 	;[28] ' Logo is a double-vertical resolution sprite
-	SRCFILE "IntvTouch_Ctrl_Test.bas",28
+	SRCFILE "IntvTouch-Ctrl-Test.bas",28
 	;[29] 'SPRITE 0, SpritePosX(16, 3) + VISIBLE, SpritePosY(2, 6) + ZOOMY2 + DOUBLEY, SPR00 + CS_BLUE + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",29
+	SRCFILE "IntvTouch-Ctrl-Test.bas",29
 	;[30] SPRITE 1, SpritePosX(17, 3) + VISIBLE, SpritePosY(2, 6) + ZOOMY2 + DOUBLEY, SPR02 + CS_WHITE + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",30
+	SRCFILE "IntvTouch-Ctrl-Test.bas",30
 	MVII #659,R0
 	MVO R0,_mobs+1
 	MVII #414,R0
@@ -3231,16 +3231,16 @@ ENDM
 	MVII #10263,R0
 	MVO R0,_mobs+17
 	;[31] WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",31
+	SRCFILE "IntvTouch-Ctrl-Test.bas",31
 	CALL _wait
 	;[32] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",32
+	SRCFILE "IntvTouch-Ctrl-Test.bas",32
 	;[33] ' Print classic colored bars
-	SRCFILE "IntvTouch_Ctrl_Test.bas",33
+	SRCFILE "IntvTouch-Ctrl-Test.bas",33
 	;[34] '  Vertical bars on the left
-	SRCFILE "IntvTouch_Ctrl_Test.bas",34
+	SRCFILE "IntvTouch-Ctrl-Test.bas",34
 	;[35] PRINT AT SCREENPOS( 2, 1) COLOR CS_WHITE,     "\165"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",35
+	SRCFILE "IntvTouch-Ctrl-Test.bas",35
 	MVII #534,R0
 	MVO R0,_screen
 	MVII #7,R0
@@ -3251,7 +3251,7 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[36] PRINT AT SCREENPOS( 4, 1) COLOR CS_YELLOW,    "\165"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",36
+	SRCFILE "IntvTouch-Ctrl-Test.bas",36
 	MVII #536,R0
 	MVO R0,_screen
 	MVII #6,R0
@@ -3262,7 +3262,7 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[37] PRINT AT SCREENPOS( 6, 1) COLOR CS_GREEN,     "\165"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",37
+	SRCFILE "IntvTouch-Ctrl-Test.bas",37
 	MVII #538,R0
 	MVO R0,_screen
 	MVII #5,R0
@@ -3273,7 +3273,7 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[38] PRINT AT SCREENPOS( 8, 1) COLOR CS_DARKGREEN, "\165"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",38
+	SRCFILE "IntvTouch-Ctrl-Test.bas",38
 	MVII #540,R0
 	MVO R0,_screen
 	MVII #4,R0
@@ -3284,11 +3284,11 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[39] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",39
+	SRCFILE "IntvTouch-Ctrl-Test.bas",39
 	;[40] '  Vertical bars on the right
-	SRCFILE "IntvTouch_Ctrl_Test.bas",40
+	SRCFILE "IntvTouch-Ctrl-Test.bas",40
 	;[41] PRINT AT SCREENPOS(11, 1) COLOR CS_TAN,       "\164"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",41
+	SRCFILE "IntvTouch-Ctrl-Test.bas",41
 	MVII #543,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -3299,7 +3299,7 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[42] PRINT AT SCREENPOS(13, 1) COLOR CS_RED,       "\164"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",42
+	SRCFILE "IntvTouch-Ctrl-Test.bas",42
 	MVII #545,R0
 	MVO R0,_screen
 	MVII #2,R0
@@ -3310,7 +3310,7 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[43] PRINT AT SCREENPOS(15, 1) COLOR CS_BLUE,      "\164"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",43
+	SRCFILE "IntvTouch-Ctrl-Test.bas",43
 	MVII #547,R0
 	MVO R0,_screen
 	MVII #1,R0
@@ -3321,7 +3321,7 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[44] PRINT AT SCREENPOS(17, 1) COLOR CS_BLACK,     "\164"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",44
+	SRCFILE "IntvTouch-Ctrl-Test.bas",44
 	MVII #549,R0
 	MVO R0,_screen
 	CLRR R0
@@ -3332,11 +3332,11 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[45] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",45
+	SRCFILE "IntvTouch-Ctrl-Test.bas",45
 	;[46] ' Print SDK brand and logo
-	SRCFILE "IntvTouch_Ctrl_Test.bas",46
+	SRCFILE "IntvTouch-Ctrl-Test.bas",46
 	;[47] PRINT AT TextCenterPos( 10, 3 + 0) COLOR CS_RED, "MasterMIB"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",47
+	SRCFILE "IntvTouch-Ctrl-Test.bas",47
 	MVII #577,R0
 	MVO R0,_screen
 	MVII #2,R0
@@ -3363,7 +3363,7 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[48] PRINT AT TextCenterPos( 10, 3 + 1) COLOR CS_GREEN, " presents"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",48
+	SRCFILE "IntvTouch-Ctrl-Test.bas",48
 	MVII #597,R0
 	MVO R0,_screen
 	MVII #5,R0
@@ -3388,11 +3388,11 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[49] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",49
+	SRCFILE "IntvTouch-Ctrl-Test.bas",49
 	;[50] ' Print project-specific information
-	SRCFILE "IntvTouch_Ctrl_Test.bas",50
-	;[51] PRINT AT TextCenterPos(LEN("InvtTouch") - 1,  6) COLOR CS_YELLOW, "InvtTouch"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",51
+	SRCFILE "IntvTouch-Ctrl-Test.bas",50
+	;[51] PRINT AT TextCenterPos(LEN("IntvTouch") - 1,  6) COLOR CS_YELLOW, "IntvTouch"
+	SRCFILE "IntvTouch-Ctrl-Test.bas",51
 	MVII #637,R0
 	MVO R0,_screen
 	MVII #6,R0
@@ -3403,11 +3403,11 @@ ENDM
 	MVO@ R0,R4
 	XORI #824,R0
 	MVO@ R0,R4
-	XORI #192,R0
+	XORI #208,R0
 	MVO@ R0,R4
 	XORI #16,R0
 	MVO@ R0,R4
-	XORI #768,R0
+	XORI #784,R0
 	MVO@ R0,R4
 	XORI #984,R0
 	MVO@ R0,R4
@@ -3419,9 +3419,9 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[52] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",52
+	SRCFILE "IntvTouch-Ctrl-Test.bas",52
 	;[53] PRINT AT TextCenterPos(LEN("controller test") - 1,  7) COLOR CS_TAN, "controller test"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",53
+	SRCFILE "IntvTouch-Ctrl-Test.bas",53
 	MVII #654,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -3459,9 +3459,9 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[54] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",54
+	SRCFILE "IntvTouch-Ctrl-Test.bas",54
 	;[55] PRINT AT TextCenterPos((LEN("MasterMIB") + 6), 10) + 0 -1 , BG08 + CS_WHITE
-	SRCFILE "IntvTouch_Ctrl_Test.bas",55
+	SRCFILE "IntvTouch-Ctrl-Test.bas",55
 	MVII #714,R0
 	MVO R0,_screen
 	MVII #2119,R0
@@ -3469,7 +3469,7 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[56] PRINT AT TextCenterPos((LEN("MasterMIB") + 6), 10) + 1 -1 COLOR CS_WHITE,  "2025 RodineyHM"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",56
+	SRCFILE "IntvTouch-Ctrl-Test.bas",56
 	MVII #715,R0
 	MVO R0,_screen
 	MVII #7,R0
@@ -3506,33 +3506,33 @@ ENDM
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[57] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",57
+	SRCFILE "IntvTouch-Ctrl-Test.bas",57
 	;[58] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",58
+	SRCFILE "IntvTouch-Ctrl-Test.bas",58
 	;[59] 'SPRITE 0, SpritePosX(16   , 3) + VISIBLE, SpritePosY(2, 6) + ZOOMY2 + DOUBLEY, SPR00 + CS_BLUE + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",59
+	SRCFILE "IntvTouch-Ctrl-Test.bas",59
 	;[60] FOR Xanima=0 TO 15
-	SRCFILE "IntvTouch_Ctrl_Test.bas",60
+	SRCFILE "IntvTouch-Ctrl-Test.bas",60
 	CLRR R0
 	MVO R0,var_XANIMA
 T1:
 	;[61]     FOR Atraso=1 TO 5
-	SRCFILE "IntvTouch_Ctrl_Test.bas",61
+	SRCFILE "IntvTouch-Ctrl-Test.bas",61
 	MVII #1,R0
 	MVO R0,var_ATRASO
 T2:
 	;[62]         WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",62
+	SRCFILE "IntvTouch-Ctrl-Test.bas",62
 	CALL _wait
 	;[63]     NEXT Atraso
-	SRCFILE "IntvTouch_Ctrl_Test.bas",63
+	SRCFILE "IntvTouch-Ctrl-Test.bas",63
 	MVI var_ATRASO,R0
 	INCR R0
 	MVO R0,var_ATRASO
 	CMPI #5,R0
 	BLE T2
 	;[64]     SPRITE 0, SpritePosX(16 -16 +Xanima  , 3) + VISIBLE, SpritePosY(2, 6) + ZOOMY2 + DOUBLEY, SPR00 + CS_PURPLE + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",64
+	SRCFILE "IntvTouch-Ctrl-Test.bas",64
 	MVI var_XANIMA,R0
 	INCR R0
 	SLL R0,2
@@ -3544,24 +3544,24 @@ T2:
 	MVII #14343,R0
 	MVO R0,_mobs+16
 	;[65] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",65
+	SRCFILE "IntvTouch-Ctrl-Test.bas",65
 	;[66]     FOR Atraso=1 TO 5
-	SRCFILE "IntvTouch_Ctrl_Test.bas",66
+	SRCFILE "IntvTouch-Ctrl-Test.bas",66
 	MVII #1,R0
 	MVO R0,var_ATRASO
 T3:
 	;[67]         WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",67
+	SRCFILE "IntvTouch-Ctrl-Test.bas",67
 	CALL _wait
 	;[68]     NEXT Atraso
-	SRCFILE "IntvTouch_Ctrl_Test.bas",68
+	SRCFILE "IntvTouch-Ctrl-Test.bas",68
 	MVI var_ATRASO,R0
 	INCR R0
 	MVO R0,var_ATRASO
 	CMPI #5,R0
 	BLE T3
 	;[69]     SPRITE 0, SpritePosX(16 -16 +1 +Xanima  , 3) + VISIBLE, SpritePosY(2, 6) + ZOOMY2 + DOUBLEY, SPR04 + CS_PURPLE + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",69
+	SRCFILE "IntvTouch-Ctrl-Test.bas",69
 	MVI var_XANIMA,R0
 	ADDI #2,R0
 	SLL R0,2
@@ -3573,31 +3573,31 @@ T3:
 	MVII #14375,R0
 	MVO R0,_mobs+16
 	;[70] NEXT Xanima
-	SRCFILE "IntvTouch_Ctrl_Test.bas",70
+	SRCFILE "IntvTouch-Ctrl-Test.bas",70
 	MVI var_XANIMA,R0
 	INCR R0
 	MVO R0,var_XANIMA
 	CMPI #15,R0
 	BLE T1
 	;[71] FOR Atraso=1 TO 20
-	SRCFILE "IntvTouch_Ctrl_Test.bas",71
+	SRCFILE "IntvTouch-Ctrl-Test.bas",71
 	MVII #1,R0
 	MVO R0,var_ATRASO
 T4:
 	;[72]         WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",72
+	SRCFILE "IntvTouch-Ctrl-Test.bas",72
 	CALL _wait
 	;[73] NEXT Atraso
-	SRCFILE "IntvTouch_Ctrl_Test.bas",73
+	SRCFILE "IntvTouch-Ctrl-Test.bas",73
 	MVI var_ATRASO,R0
 	INCR R0
 	MVO R0,var_ATRASO
 	CMPI #20,R0
 	BLE T4
 	;[74] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",74
+	SRCFILE "IntvTouch-Ctrl-Test.bas",74
 	;[75] SPRITE 0, SpritePosX(16 , 3) + VISIBLE, SpritePosY(2, 6) + ZOOMY2 + DOUBLEY, SPR06 + CS_PURPLE + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",75
+	SRCFILE "IntvTouch-Ctrl-Test.bas",75
 	MVII #651,R0
 	MVO R0,_mobs
 	MVII #414,R0
@@ -3605,24 +3605,24 @@ T4:
 	MVII #14391,R0
 	MVO R0,_mobs+16
 	;[76] FOR Atraso=1 TO 20
-	SRCFILE "IntvTouch_Ctrl_Test.bas",76
+	SRCFILE "IntvTouch-Ctrl-Test.bas",76
 	MVII #1,R0
 	MVO R0,var_ATRASO
 T5:
 	;[77]         WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",77
+	SRCFILE "IntvTouch-Ctrl-Test.bas",77
 	CALL _wait
 	;[78] NEXT Atraso
-	SRCFILE "IntvTouch_Ctrl_Test.bas",78
+	SRCFILE "IntvTouch-Ctrl-Test.bas",78
 	MVI var_ATRASO,R0
 	INCR R0
 	MVO R0,var_ATRASO
 	CMPI #20,R0
 	BLE T5
 	;[79] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",79
+	SRCFILE "IntvTouch-Ctrl-Test.bas",79
 	;[80] SPRITE 1, SpritePosX(17, 3) + VISIBLE, SpritePosY(2, 6) + ZOOMY2 + DOUBLEY, SPR02 + CS_BLUE + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",80
+	SRCFILE "IntvTouch-Ctrl-Test.bas",80
 	MVII #659,R0
 	MVO R0,_mobs+1
 	MVII #414,R0
@@ -3630,83 +3630,83 @@ T5:
 	MVII #10257,R0
 	MVO R0,_mobs+17
 	;[81] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",81
+	SRCFILE "IntvTouch-Ctrl-Test.bas",81
 	;[82] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",82
+	SRCFILE "IntvTouch-Ctrl-Test.bas",82
 	;[83] ' ============================
-	SRCFILE "IntvTouch_Ctrl_Test.bas",83
+	SRCFILE "IntvTouch-Ctrl-Test.bas",83
 	;[84] ' Wait For Any Key
-	SRCFILE "IntvTouch_Ctrl_Test.bas",84
+	SRCFILE "IntvTouch-Ctrl-Test.bas",84
 	;[85] ' ============================
-	SRCFILE "IntvTouch_Ctrl_Test.bas",85
+	SRCFILE "IntvTouch-Ctrl-Test.bas",85
 	;[86] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",86
+	SRCFILE "IntvTouch-Ctrl-Test.bas",86
 	;[87] ' ------------------------------------------------------
-	SRCFILE "IntvTouch_Ctrl_Test.bas",87
+	SRCFILE "IntvTouch-Ctrl-Test.bas",87
 	;[88] ' First, we wait for the controller to be completely
-	SRCFILE "IntvTouch_Ctrl_Test.bas",88
+	SRCFILE "IntvTouch-Ctrl-Test.bas",88
 	;[89] ' at rest, with no input, for DEBOUNCE_DELAY cycles.
-	SRCFILE "IntvTouch_Ctrl_Test.bas",89
+	SRCFILE "IntvTouch-Ctrl-Test.bas",89
 	;[90] ' This ensures we will get a brand new key press.
-	SRCFILE "IntvTouch_Ctrl_Test.bas",90
+	SRCFILE "IntvTouch-Ctrl-Test.bas",90
 	;[91] ' ------------------------------------------------------
-	SRCFILE "IntvTouch_Ctrl_Test.bas",91
+	SRCFILE "IntvTouch-Ctrl-Test.bas",91
 	;[92] Dim Counter
-	SRCFILE "IntvTouch_Ctrl_Test.bas",92
+	SRCFILE "IntvTouch-Ctrl-Test.bas",92
 	;[93] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",93
+	SRCFILE "IntvTouch-Ctrl-Test.bas",93
 	;[94] Counter = 0
-	SRCFILE "IntvTouch_Ctrl_Test.bas",94
+	SRCFILE "IntvTouch-Ctrl-Test.bas",94
 	CLRR R0
 	MVO R0,var_COUNTER
 	;[95] WHILE (Counter < 2)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",95
+	SRCFILE "IntvTouch-Ctrl-Test.bas",95
 T6:
 	MVI var_COUNTER,R0
 	CMPI #2,R0
 	BGE T7
 	;[96]     WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",96
+	SRCFILE "IntvTouch-Ctrl-Test.bas",96
 	CALL _wait
 	;[97]     IF (cont <> 0) THEN
-	SRCFILE "IntvTouch_Ctrl_Test.bas",97
+	SRCFILE "IntvTouch-Ctrl-Test.bas",97
 	MVI 510,R0
 	XOR 511,R0
 	BEQ T8
 	;[98]         Counter = 0
-	SRCFILE "IntvTouch_Ctrl_Test.bas",98
+	SRCFILE "IntvTouch-Ctrl-Test.bas",98
 	CLRR R0
 	MVO R0,var_COUNTER
 	;[99]     ELSE
-	SRCFILE "IntvTouch_Ctrl_Test.bas",99
+	SRCFILE "IntvTouch-Ctrl-Test.bas",99
 	B T9
 T8:
 	;[100]         Counter = (Counter + 1)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",100
+	SRCFILE "IntvTouch-Ctrl-Test.bas",100
 	MVI var_COUNTER,R0
 	INCR R0
 	MVO R0,var_COUNTER
 	;[101]     END IF
-	SRCFILE "IntvTouch_Ctrl_Test.bas",101
+	SRCFILE "IntvTouch-Ctrl-Test.bas",101
 T9:
 	;[102] WEND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",102
+	SRCFILE "IntvTouch-Ctrl-Test.bas",102
 	B T6
 T7:
 	;[103] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",103
+	SRCFILE "IntvTouch-Ctrl-Test.bas",103
 	;[104] ' ------------------------------------------------------
-	SRCFILE "IntvTouch_Ctrl_Test.bas",104
+	SRCFILE "IntvTouch-Ctrl-Test.bas",104
 	;[105] ' Then, we wait for a new controller key press.
-	SRCFILE "IntvTouch_Ctrl_Test.bas",105
+	SRCFILE "IntvTouch-Ctrl-Test.bas",105
 	;[106] ' ------------------------------------------------------
-	SRCFILE "IntvTouch_Ctrl_Test.bas",106
+	SRCFILE "IntvTouch-Ctrl-Test.bas",106
 	;[107] espera = 250
-	SRCFILE "IntvTouch_Ctrl_Test.bas",107
+	SRCFILE "IntvTouch-Ctrl-Test.bas",107
 	MVII #250,R0
 	MVO R0,var_ESPERA
 	;[108] WHILE (cont = 0) AND (espera > 0)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",108
+	SRCFILE "IntvTouch-Ctrl-Test.bas",108
 T10:
 	MVI 510,R0
 	XOR 511,R0
@@ -3723,354 +3723,354 @@ T13:
 	ANDR R1,R0
 	BEQ T11
 	;[109]     WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",109
+	SRCFILE "IntvTouch-Ctrl-Test.bas",109
 	CALL _wait
 	;[110]     espera = espera -1
-	SRCFILE "IntvTouch_Ctrl_Test.bas",110
+	SRCFILE "IntvTouch-Ctrl-Test.bas",110
 	MVI var_ESPERA,R0
 	DECR R0
 	MVO R0,var_ESPERA
 	;[111] WEND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",111
+	SRCFILE "IntvTouch-Ctrl-Test.bas",111
 	B T10
 T11:
 	;[112] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",112
+	SRCFILE "IntvTouch-Ctrl-Test.bas",112
 	;[113] ' ------------------------------------------------------
-	SRCFILE "IntvTouch_Ctrl_Test.bas",113
+	SRCFILE "IntvTouch-Ctrl-Test.bas",113
 	;[114] ' At this point we have a valid user input signal, so we
-	SRCFILE "IntvTouch_Ctrl_Test.bas",114
+	SRCFILE "IntvTouch-Ctrl-Test.bas",114
 	;[115] ' could jump to an appropriate subroutine depending on
-	SRCFILE "IntvTouch_Ctrl_Test.bas",115
+	SRCFILE "IntvTouch-Ctrl-Test.bas",115
 	;[116] ' the key pressed.  In this case, we just wanted
-	SRCFILE "IntvTouch_Ctrl_Test.bas",116
+	SRCFILE "IntvTouch-Ctrl-Test.bas",116
 	;[117] ' *any key* pressed, so we're done.
-	SRCFILE "IntvTouch_Ctrl_Test.bas",117
+	SRCFILE "IntvTouch-Ctrl-Test.bas",117
 	;[118] ' ------------------------------------------------------
-	SRCFILE "IntvTouch_Ctrl_Test.bas",118
+	SRCFILE "IntvTouch-Ctrl-Test.bas",118
 	;[119] WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",119
+	SRCFILE "IntvTouch-Ctrl-Test.bas",119
 	CALL _wait
 	;[120] ResetSprite(0)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",120
+	SRCFILE "IntvTouch-Ctrl-Test.bas",120
 	CLRR R0
 	MVO R0,_mobs
 	MVO R0,_mobs+8
 	NOP
 	MVO R0,_mobs+16
 	;[121] ResetSprite(1)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",121
+	SRCFILE "IntvTouch-Ctrl-Test.bas",121
 	MVO R0,_mobs+1
 	NOP
 	MVO R0,_mobs+9
 	MVO R0,_mobs+17
 	;[122] ResetSprite(2)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",122
+	SRCFILE "IntvTouch-Ctrl-Test.bas",122
 	NOP
 	MVO R0,_mobs+2
 	MVO R0,_mobs+10
 	NOP
 	MVO R0,_mobs+18
 	;[123] ResetSprite(3)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",123
+	SRCFILE "IntvTouch-Ctrl-Test.bas",123
 	MVO R0,_mobs+3
 	NOP
 	MVO R0,_mobs+11
 	MVO R0,_mobs+19
 	;[124] ResetSprite(4)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",124
+	SRCFILE "IntvTouch-Ctrl-Test.bas",124
 	NOP
 	MVO R0,_mobs+4
 	MVO R0,_mobs+12
 	NOP
 	MVO R0,_mobs+20
 	;[125] ResetSprite(5)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",125
+	SRCFILE "IntvTouch-Ctrl-Test.bas",125
 	MVO R0,_mobs+5
 	NOP
 	MVO R0,_mobs+13
 	MVO R0,_mobs+21
 	;[126] CLS
-	SRCFILE "IntvTouch_Ctrl_Test.bas",126
+	SRCFILE "IntvTouch-Ctrl-Test.bas",126
 	CALL CLRSCR
 	;[127] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",127
+	SRCFILE "IntvTouch-Ctrl-Test.bas",127
 	;[128] ' Skip graphics and go to program code
-	SRCFILE "IntvTouch_Ctrl_Test.bas",128
+	SRCFILE "IntvTouch-Ctrl-Test.bas",128
 	;[129] GOTO Main
-	SRCFILE "IntvTouch_Ctrl_Test.bas",129
+	SRCFILE "IntvTouch-Ctrl-Test.bas",129
 	B label_MAIN
 	;[130] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",130
+	SRCFILE "IntvTouch-Ctrl-Test.bas",130
 	;[131] Graphics:
-	SRCFILE "IntvTouch_Ctrl_Test.bas",131
+	SRCFILE "IntvTouch-Ctrl-Test.bas",131
 	; GRAPHICS
 label_GRAPHICS:	;[132] ' SDK Logo - Left Side
-	SRCFILE "IntvTouch_Ctrl_Test.bas",132
+	SRCFILE "IntvTouch-Ctrl-Test.bas",132
 	;[133] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",133
+	SRCFILE "IntvTouch-Ctrl-Test.bas",133
 	;[134] BITMAP "....##.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",134
+	SRCFILE "IntvTouch-Ctrl-Test.bas",134
 	DECLE 3072
 	;[135] BITMAP "....#..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",135
+	SRCFILE "IntvTouch-Ctrl-Test.bas",135
 	;[136] BITMAP "..####.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",136
+	SRCFILE "IntvTouch-Ctrl-Test.bas",136
 	DECLE 15368
 	;[137] BITMAP ".####..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",137
+	SRCFILE "IntvTouch-Ctrl-Test.bas",137
 	;[138] BITMAP ".#.#####"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",138
+	SRCFILE "IntvTouch-Ctrl-Test.bas",138
 	DECLE 24440
 	;[139] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",139
+	SRCFILE "IntvTouch-Ctrl-Test.bas",139
 	;[140] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",140
+	SRCFILE "IntvTouch-Ctrl-Test.bas",140
 	DECLE 6144
 	;[141] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",141
+	SRCFILE "IntvTouch-Ctrl-Test.bas",141
 	;[142] BITMAP "..######"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",142
+	SRCFILE "IntvTouch-Ctrl-Test.bas",142
 	DECLE 16152
 	;[143] BITMAP "..#....#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",143
+	SRCFILE "IntvTouch-Ctrl-Test.bas",143
 	;[144] BITMAP ".##...#."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",144
+	SRCFILE "IntvTouch-Ctrl-Test.bas",144
 	DECLE 25121
 	;[145] BITMAP ".#....#."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",145
+	SRCFILE "IntvTouch-Ctrl-Test.bas",145
 	;[146] BITMAP "##......"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",146
+	SRCFILE "IntvTouch-Ctrl-Test.bas",146
 	DECLE 49218
 	;[147] BITMAP "#......."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",147
+	SRCFILE "IntvTouch-Ctrl-Test.bas",147
 	;[148] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",148
+	SRCFILE "IntvTouch-Ctrl-Test.bas",148
 	DECLE 128
 	;[149] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",149
+	SRCFILE "IntvTouch-Ctrl-Test.bas",149
 	;[150] ' SDK Logo - Right Side
-	SRCFILE "IntvTouch_Ctrl_Test.bas",150
+	SRCFILE "IntvTouch-Ctrl-Test.bas",150
 	;[151] BITMAP "########"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",151
+	SRCFILE "IntvTouch-Ctrl-Test.bas",151
 	;[152] BITMAP "#......#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",152
+	SRCFILE "IntvTouch-Ctrl-Test.bas",152
 	DECLE 33279
 	;[153] BITMAP "#.####.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",153
+	SRCFILE "IntvTouch-Ctrl-Test.bas",153
 	;[154] BITMAP "#.#..#.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",154
+	SRCFILE "IntvTouch-Ctrl-Test.bas",154
 	DECLE 42429
 	;[155] BITMAP "#.#..#.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",155
+	SRCFILE "IntvTouch-Ctrl-Test.bas",155
 	;[156] BITMAP "#.#..#.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",156
+	SRCFILE "IntvTouch-Ctrl-Test.bas",156
 	DECLE 42405
 	;[157] BITMAP "#.#..#.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",157
+	SRCFILE "IntvTouch-Ctrl-Test.bas",157
 	;[158] BITMAP "#.#..#.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",158
+	SRCFILE "IntvTouch-Ctrl-Test.bas",158
 	DECLE 42405
 	;[159] BITMAP "#.#..#.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",159
+	SRCFILE "IntvTouch-Ctrl-Test.bas",159
 	;[160] BITMAP "#.####.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",160
+	SRCFILE "IntvTouch-Ctrl-Test.bas",160
 	DECLE 48549
 	;[161] BITMAP "#......#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",161
+	SRCFILE "IntvTouch-Ctrl-Test.bas",161
 	;[162] BITMAP "#......#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",162
+	SRCFILE "IntvTouch-Ctrl-Test.bas",162
 	DECLE 33153
 	;[163] BITMAP "#..##..#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",163
+	SRCFILE "IntvTouch-Ctrl-Test.bas",163
 	;[164] BITMAP "#..##..#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",164
+	SRCFILE "IntvTouch-Ctrl-Test.bas",164
 	DECLE 39321
 	;[165] BITMAP "#......#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",165
+	SRCFILE "IntvTouch-Ctrl-Test.bas",165
 	;[166] BITMAP "########"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",166
+	SRCFILE "IntvTouch-Ctrl-Test.bas",166
 	DECLE 65409
 	;[167] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",167
+	SRCFILE "IntvTouch-Ctrl-Test.bas",167
 	;[168] ' SDK Logo - Left Side2
-	SRCFILE "IntvTouch_Ctrl_Test.bas",168
+	SRCFILE "IntvTouch-Ctrl-Test.bas",168
 	;[169] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",169
+	SRCFILE "IntvTouch-Ctrl-Test.bas",169
 	;[170] BITMAP ".....##."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",170
+	SRCFILE "IntvTouch-Ctrl-Test.bas",170
 	DECLE 1536
 	;[171] BITMAP ".....#.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",171
+	SRCFILE "IntvTouch-Ctrl-Test.bas",171
 	;[172] BITMAP "...####."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",172
+	SRCFILE "IntvTouch-Ctrl-Test.bas",172
 	DECLE 7684
 	;[173] BITMAP "..####.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",173
+	SRCFILE "IntvTouch-Ctrl-Test.bas",173
 	;[174] BITMAP "..####.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",174
+	SRCFILE "IntvTouch-Ctrl-Test.bas",174
 	DECLE 15420
 	;[175] BITMAP "..#####."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",175
+	SRCFILE "IntvTouch-Ctrl-Test.bas",175
 	;[176] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",176
+	SRCFILE "IntvTouch-Ctrl-Test.bas",176
 	DECLE 6206
 	;[177] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",177
+	SRCFILE "IntvTouch-Ctrl-Test.bas",177
 	;[178] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",178
+	SRCFILE "IntvTouch-Ctrl-Test.bas",178
 	DECLE 6168
 	;[179] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",179
+	SRCFILE "IntvTouch-Ctrl-Test.bas",179
 	;[180] BITMAP ".####..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",180
+	SRCFILE "IntvTouch-Ctrl-Test.bas",180
 	DECLE 30744
 	;[181] BITMAP ".#..#..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",181
+	SRCFILE "IntvTouch-Ctrl-Test.bas",181
 	;[182] BITMAP ".#..#..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",182
+	SRCFILE "IntvTouch-Ctrl-Test.bas",182
 	DECLE 18504
 	;[183] BITMAP "....##.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",183
+	SRCFILE "IntvTouch-Ctrl-Test.bas",183
 	;[184] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",184
+	SRCFILE "IntvTouch-Ctrl-Test.bas",184
 	DECLE 12
 	;[185] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",185
+	SRCFILE "IntvTouch-Ctrl-Test.bas",185
 	;[186] ' SDK Logo - Left Side3
-	SRCFILE "IntvTouch_Ctrl_Test.bas",186
+	SRCFILE "IntvTouch-Ctrl-Test.bas",186
 	;[187] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",187
+	SRCFILE "IntvTouch-Ctrl-Test.bas",187
 	;[188] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",188
+	SRCFILE "IntvTouch-Ctrl-Test.bas",188
 	DECLE 6144
 	;[189] BITMAP "...##..#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",189
+	SRCFILE "IntvTouch-Ctrl-Test.bas",189
 	;[190] BITMAP ".......#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",190
+	SRCFILE "IntvTouch-Ctrl-Test.bas",190
 	DECLE 281
 	;[191] BITMAP "..####.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",191
+	SRCFILE "IntvTouch-Ctrl-Test.bas",191
 	;[192] BITMAP ".#######"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",192
+	SRCFILE "IntvTouch-Ctrl-Test.bas",192
 	DECLE 32573
 	;[193] BITMAP ".#.##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",193
+	SRCFILE "IntvTouch-Ctrl-Test.bas",193
 	;[194] BITMAP ".#.##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",194
+	SRCFILE "IntvTouch-Ctrl-Test.bas",194
 	DECLE 22616
 	;[195] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",195
+	SRCFILE "IntvTouch-Ctrl-Test.bas",195
 	;[196] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",196
+	SRCFILE "IntvTouch-Ctrl-Test.bas",196
 	DECLE 6144
 	;[197] BITMAP "..#..#.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",197
+	SRCFILE "IntvTouch-Ctrl-Test.bas",197
 	;[198] BITMAP "..#..#.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",198
+	SRCFILE "IntvTouch-Ctrl-Test.bas",198
 	DECLE 9252
 	;[199] BITMAP "..#..#.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",199
+	SRCFILE "IntvTouch-Ctrl-Test.bas",199
 	;[200] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",200
+	SRCFILE "IntvTouch-Ctrl-Test.bas",200
 	DECLE 36
 	;[201] BITMAP "..#..#.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",201
+	SRCFILE "IntvTouch-Ctrl-Test.bas",201
 	;[202] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",202
+	SRCFILE "IntvTouch-Ctrl-Test.bas",202
 	DECLE 36
 	;[203] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",203
+	SRCFILE "IntvTouch-Ctrl-Test.bas",203
 	;[204] ' Real Copyright Symbol
-	SRCFILE "IntvTouch_Ctrl_Test.bas",204
+	SRCFILE "IntvTouch-Ctrl-Test.bas",204
 	;[205] BITMAP ".######."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",205
+	SRCFILE "IntvTouch-Ctrl-Test.bas",205
 	;[206] BITMAP "#......#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",206
+	SRCFILE "IntvTouch-Ctrl-Test.bas",206
 	DECLE 33150
 	;[207] BITMAP "#..###.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",207
+	SRCFILE "IntvTouch-Ctrl-Test.bas",207
 	;[208] BITMAP "#.#....#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",208
+	SRCFILE "IntvTouch-Ctrl-Test.bas",208
 	DECLE 41373
 	;[209] BITMAP "#.#....#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",209
+	SRCFILE "IntvTouch-Ctrl-Test.bas",209
 	;[210] BITMAP "#..###.#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",210
+	SRCFILE "IntvTouch-Ctrl-Test.bas",210
 	DECLE 40353
 	;[211] BITMAP "#......#"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",211
+	SRCFILE "IntvTouch-Ctrl-Test.bas",211
 	;[212] BITMAP ".######."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",212
+	SRCFILE "IntvTouch-Ctrl-Test.bas",212
 	DECLE 32385
 	;[213] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",213
+	SRCFILE "IntvTouch-Ctrl-Test.bas",213
 	;[214] ' Disco1A 00
-	SRCFILE "IntvTouch_Ctrl_Test.bas",214
+	SRCFILE "IntvTouch-Ctrl-Test.bas",214
 	;[215] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",215
+	SRCFILE "IntvTouch-Ctrl-Test.bas",215
 	;[216] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",216
+	SRCFILE "IntvTouch-Ctrl-Test.bas",216
 	DECLE 0
 	;[217] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",217
+	SRCFILE "IntvTouch-Ctrl-Test.bas",217
 	;[218] BITMAP "..####.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",218
+	SRCFILE "IntvTouch-Ctrl-Test.bas",218
 	DECLE 15384
 	;[219] BITMAP "..####.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",219
+	SRCFILE "IntvTouch-Ctrl-Test.bas",219
 	;[220] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",220
+	SRCFILE "IntvTouch-Ctrl-Test.bas",220
 	DECLE 6204
 	;[221] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",221
+	SRCFILE "IntvTouch-Ctrl-Test.bas",221
 	;[222] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",222
+	SRCFILE "IntvTouch-Ctrl-Test.bas",222
 	DECLE 0
 	;[223] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",223
+	SRCFILE "IntvTouch-Ctrl-Test.bas",223
 	;[224] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",224
+	SRCFILE "IntvTouch-Ctrl-Test.bas",224
 	;[225] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",225
+	SRCFILE "IntvTouch-Ctrl-Test.bas",225
 	DECLE 0
 	;[226] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",226
+	SRCFILE "IntvTouch-Ctrl-Test.bas",226
 	;[227] BITMAP "..####.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",227
+	SRCFILE "IntvTouch-Ctrl-Test.bas",227
 	DECLE 15384
 	;[228] BITMAP "..####.."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",228
+	SRCFILE "IntvTouch-Ctrl-Test.bas",228
 	;[229] BITMAP "...##..."
-	SRCFILE "IntvTouch_Ctrl_Test.bas",229
+	SRCFILE "IntvTouch-Ctrl-Test.bas",229
 	DECLE 6204
 	;[230] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",230
+	SRCFILE "IntvTouch-Ctrl-Test.bas",230
 	;[231] BITMAP "........"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",231
+	SRCFILE "IntvTouch-Ctrl-Test.bas",231
 	DECLE 0
 	;[232] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",232
+	SRCFILE "IntvTouch-Ctrl-Test.bas",232
 	;[233] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",233
+	SRCFILE "IntvTouch-Ctrl-Test.bas",233
 	;[234] Main:   ' Continue normal code flow
-	SRCFILE "IntvTouch_Ctrl_Test.bas",234
+	SRCFILE "IntvTouch-Ctrl-Test.bas",234
 	; MAIN
 label_MAIN:	;[235] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",235
+	SRCFILE "IntvTouch-Ctrl-Test.bas",235
 	;[236] WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",236
+	SRCFILE "IntvTouch-Ctrl-Test.bas",236
 	CALL _wait
 	;[237] CLS
-	SRCFILE "IntvTouch_Ctrl_Test.bas",237
+	SRCFILE "IntvTouch-Ctrl-Test.bas",237
 	CALL CLRSCR
 	;[238] WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",238
+	SRCFILE "IntvTouch-Ctrl-Test.bas",238
 	CALL _wait
 	;[239] '                                          01234567890123456789
-	SRCFILE "IntvTouch_Ctrl_Test.bas",239
+	SRCFILE "IntvTouch-Ctrl-Test.bas",239
 	;[240] PRINT AT SCREENPOS(0, 0) COLOR CS_WHITE,  " Intellivision      "
-	SRCFILE "IntvTouch_Ctrl_Test.bas",240
+	SRCFILE "IntvTouch-Ctrl-Test.bas",240
 	MVII #512,R0
 	MVO R0,_screen
 	MVII #7,R0
@@ -4113,7 +4113,7 @@ label_MAIN:	;[235]
 	NOP
 	MVO R4,_screen
 	;[241] PRINT AT SCREENPOS(0, 1) COLOR CS_WHITE,  "    controller test "
-	SRCFILE "IntvTouch_Ctrl_Test.bas",241
+	SRCFILE "IntvTouch-Ctrl-Test.bas",241
 	MVII #532,R0
 	MVO R0,_screen
 	MVII #7,R0
@@ -4156,7 +4156,7 @@ label_MAIN:	;[235]
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[242] PRINT AT SCREENPOS(0, 2) COLOR CS_WHITE,  " Developed in       "
-	SRCFILE "IntvTouch_Ctrl_Test.bas",242
+	SRCFILE "IntvTouch-Ctrl-Test.bas",242
 	MVII #552,R0
 	MVO R0,_screen
 	MVII #7,R0
@@ -4199,7 +4199,7 @@ label_MAIN:	;[235]
 	NOP
 	MVO R4,_screen
 	;[243] PRINT AT SCREENPOS(0, 3) COLOR CS_WHITE,  "   Intybasic with   "
-	SRCFILE "IntvTouch_Ctrl_Test.bas",243
+	SRCFILE "IntvTouch-Ctrl-Test.bas",243
 	MVII #572,R0
 	MVO R0,_screen
 	MVII #7,R0
@@ -4243,7 +4243,7 @@ label_MAIN:	;[235]
 	NOP
 	MVO R4,_screen
 	;[244] PRINT AT SCREENPOS(0, 4) COLOR CS_WHITE,  "        IntelliTool "
-	SRCFILE "IntvTouch_Ctrl_Test.bas",244
+	SRCFILE "IntvTouch-Ctrl-Test.bas",244
 	MVII #592,R0
 	MVO R0,_screen
 	MVII #7,R0
@@ -4282,7 +4282,7 @@ label_MAIN:	;[235]
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[245] PRINT AT SCREENPOS(0, 6) COLOR CS_WHITE,  "     Thank you!     "
-	SRCFILE "IntvTouch_Ctrl_Test.bas",245
+	SRCFILE "IntvTouch-Ctrl-Test.bas",245
 	MVII #632,R0
 	MVO R0,_screen
 	MVII #7,R0
@@ -4323,7 +4323,7 @@ label_MAIN:	;[235]
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[246] PRINT AT SCREENPOS(0, 10) COLOR CS_BLUE,  "github.com/rodineyhm"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",246
+	SRCFILE "IntvTouch-Ctrl-Test.bas",246
 	MVII #712,R0
 	MVO R0,_screen
 	MVII #1,R0
@@ -4372,7 +4372,7 @@ label_MAIN:	;[235]
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[247] PRINT AT SCREENPOS(0, 11) COLOR CS_RED,   "WWW.MASTERMIB.COM.BR"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",247
+	SRCFILE "IntvTouch-Ctrl-Test.bas",247
 	MVII #732,R0
 	MVO R0,_screen
 	MVII #2,R0
@@ -4419,53 +4419,53 @@ label_MAIN:	;[235]
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[248] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",248
+	SRCFILE "IntvTouch-Ctrl-Test.bas",248
 	;[249] Counter = 0
-	SRCFILE "IntvTouch_Ctrl_Test.bas",249
+	SRCFILE "IntvTouch-Ctrl-Test.bas",249
 	CLRR R0
 	MVO R0,var_COUNTER
 	;[250] WHILE (Counter < 2)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",250
+	SRCFILE "IntvTouch-Ctrl-Test.bas",250
 T14:
 	MVI var_COUNTER,R0
 	CMPI #2,R0
 	BGE T15
 	;[251]     WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",251
+	SRCFILE "IntvTouch-Ctrl-Test.bas",251
 	CALL _wait
 	;[252]     IF (cont <> 0) THEN
-	SRCFILE "IntvTouch_Ctrl_Test.bas",252
+	SRCFILE "IntvTouch-Ctrl-Test.bas",252
 	MVI 510,R0
 	XOR 511,R0
 	BEQ T16
 	;[253]         Counter = 0
-	SRCFILE "IntvTouch_Ctrl_Test.bas",253
+	SRCFILE "IntvTouch-Ctrl-Test.bas",253
 	CLRR R0
 	MVO R0,var_COUNTER
 	;[254]     ELSE
-	SRCFILE "IntvTouch_Ctrl_Test.bas",254
+	SRCFILE "IntvTouch-Ctrl-Test.bas",254
 	B T17
 T16:
 	;[255]         Counter = (Counter + 1)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",255
+	SRCFILE "IntvTouch-Ctrl-Test.bas",255
 	MVI var_COUNTER,R0
 	INCR R0
 	MVO R0,var_COUNTER
 	;[256]     END IF
-	SRCFILE "IntvTouch_Ctrl_Test.bas",256
+	SRCFILE "IntvTouch-Ctrl-Test.bas",256
 T17:
 	;[257] WEND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",257
+	SRCFILE "IntvTouch-Ctrl-Test.bas",257
 	B T14
 T15:
 	;[258] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",258
+	SRCFILE "IntvTouch-Ctrl-Test.bas",258
 	;[259] espera = 150
-	SRCFILE "IntvTouch_Ctrl_Test.bas",259
+	SRCFILE "IntvTouch-Ctrl-Test.bas",259
 	MVII #150,R0
 	MVO R0,var_ESPERA
 	;[260] WHILE (cont = 0) AND (espera > 0)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",260
+	SRCFILE "IntvTouch-Ctrl-Test.bas",260
 T18:
 	MVI 510,R0
 	XOR 511,R0
@@ -4482,36 +4482,36 @@ T21:
 	ANDR R1,R0
 	BEQ T19
 	;[261]     WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",261
+	SRCFILE "IntvTouch-Ctrl-Test.bas",261
 	CALL _wait
 	;[262]     espera = espera -1
-	SRCFILE "IntvTouch_Ctrl_Test.bas",262
+	SRCFILE "IntvTouch-Ctrl-Test.bas",262
 	MVI var_ESPERA,R0
 	DECR R0
 	MVO R0,var_ESPERA
 	;[263] WEND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",263
+	SRCFILE "IntvTouch-Ctrl-Test.bas",263
 	B T18
 T19:
 	;[264] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",264
+	SRCFILE "IntvTouch-Ctrl-Test.bas",264
 	;[265] CLS
-	SRCFILE "IntvTouch_Ctrl_Test.bas",265
+	SRCFILE "IntvTouch-Ctrl-Test.bas",265
 	CALL CLRSCR
 	;[266] ResetSprite(0)
-	SRCFILE "IntvTouch_Ctrl_Test.bas",266
+	SRCFILE "IntvTouch-Ctrl-Test.bas",266
 	CLRR R0
 	MVO R0,_mobs
 	MVO R0,_mobs+8
 	NOP
 	MVO R0,_mobs+16
 	;[267] WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",267
+	SRCFILE "IntvTouch-Ctrl-Test.bas",267
 	CALL _wait
 	;[268] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",268
+	SRCFILE "IntvTouch-Ctrl-Test.bas",268
 	;[269] SOUND 0,100,15
-	SRCFILE "IntvTouch_Ctrl_Test.bas",269
+	SRCFILE "IntvTouch-Ctrl-Test.bas",269
 	MVII #100,R0
 	MVO R0,496
 	SWAP R0
@@ -4519,24 +4519,24 @@ T19:
 	MVII #15,R0
 	MVO R0,507
 	;[270] WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",270
+	SRCFILE "IntvTouch-Ctrl-Test.bas",270
 	CALL _wait
 	;[271] WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",271
+	SRCFILE "IntvTouch-Ctrl-Test.bas",271
 	CALL _wait
 	;[272] WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",272
+	SRCFILE "IntvTouch-Ctrl-Test.bas",272
 	CALL _wait
 	;[273] SOUND 0,,0 ' beeper
-	SRCFILE "IntvTouch_Ctrl_Test.bas",273
+	SRCFILE "IntvTouch-Ctrl-Test.bas",273
 	CLRR R0
 	MVO R0,507
 	;[274] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",274
+	SRCFILE "IntvTouch-Ctrl-Test.bas",274
 	;[275] '                                         01234567890123456789
-	SRCFILE "IntvTouch_Ctrl_Test.bas",275
+	SRCFILE "IntvTouch-Ctrl-Test.bas",275
 	;[276] PRINT AT SCREENPOS(0, 0) COLOR CS_TAN,   "  LEFT1      RIGHT2 "
-	SRCFILE "IntvTouch_Ctrl_Test.bas",276
+	SRCFILE "IntvTouch-Ctrl-Test.bas",276
 	MVII #512,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -4578,9 +4578,9 @@ T19:
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[277] 'PRINT AT SCREENPOS(0, 1) COLOR CS_TAN,   "  -----      -----  "
-	SRCFILE "IntvTouch_Ctrl_Test.bas",277
+	SRCFILE "IntvTouch-Ctrl-Test.bas",277
 	;[278] PRINT AT SCREENPOS(0, 2) COLOR CS_TAN,   " |     |    |     |"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",278
+	SRCFILE "IntvTouch-Ctrl-Test.bas",278
 	MVII #552,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -4616,7 +4616,7 @@ T19:
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[279] PRINT AT SCREENPOS(0, 3) COLOR CS_TAN,   " |     |    |     |"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",279
+	SRCFILE "IntvTouch-Ctrl-Test.bas",279
 	MVII #572,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -4652,7 +4652,7 @@ T19:
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[280] PRINT AT SCREENPOS(0, 4) COLOR CS_TAN,   " |     |    |     |"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",280
+	SRCFILE "IntvTouch-Ctrl-Test.bas",280
 	MVII #592,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -4688,7 +4688,7 @@ T19:
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[281] PRINT AT SCREENPOS(0, 5) COLOR CS_TAN,   " |     |    |     |"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",281
+	SRCFILE "IntvTouch-Ctrl-Test.bas",281
 	MVII #612,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -4724,7 +4724,7 @@ T19:
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[282] PRINT AT SCREENPOS(0, 8) COLOR CS_TAN,   " |     |    |     |"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",282
+	SRCFILE "IntvTouch-Ctrl-Test.bas",282
 	MVII #672,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -4760,7 +4760,7 @@ T19:
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[283] PRINT AT SCREENPOS(0, 9) COLOR CS_TAN,   " |     |    |     |"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",283
+	SRCFILE "IntvTouch-Ctrl-Test.bas",283
 	MVII #692,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -4796,7 +4796,7 @@ T19:
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[284] PRINT AT SCREENPOS(0,10) COLOR CS_TAN,   " |     |    |     |"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",284
+	SRCFILE "IntvTouch-Ctrl-Test.bas",284
 	MVII #712,R0
 	MVO R0,_screen
 	MVII #3,R0
@@ -4832,12 +4832,12 @@ T19:
 	MVO@ R0,R4
 	MVO R4,_screen
 	;[285] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",285
+	SRCFILE "IntvTouch-Ctrl-Test.bas",285
 	;[286] loopTeste:
-	SRCFILE "IntvTouch_Ctrl_Test.bas",286
+	SRCFILE "IntvTouch-Ctrl-Test.bas",286
 	; LOOPTESTE
 label_LOOPTESTE:	;[287]     IF CONT1 = KEYPAD_1 THEN PRINT AT SCREENPOS(2, 2) COLOR CS_RED, "1" ELSE PRINT AT SCREENPOS(2, 2) COLOR CS_WHITE, "1" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",287
+	SRCFILE "IntvTouch-Ctrl-Test.bas",287
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #129,R0
@@ -4864,7 +4864,7 @@ T22:
 	MVO R4,_screen
 T23:
 	;[288]     IF CONT1 = KEYPAD_2 THEN PRINT AT SCREENPOS(4, 2) COLOR CS_RED, "2" ELSE PRINT AT SCREENPOS(4, 2) COLOR CS_WHITE, "2" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",288
+	SRCFILE "IntvTouch-Ctrl-Test.bas",288
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #65,R0
@@ -4891,7 +4891,7 @@ T24:
 	MVO R4,_screen
 T25:
 	;[289]     IF CONT1 = KEYPAD_3 THEN PRINT AT SCREENPOS(6, 2) COLOR CS_RED, "3" ELSE PRINT AT SCREENPOS(6, 2) COLOR CS_WHITE, "3" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",289
+	SRCFILE "IntvTouch-Ctrl-Test.bas",289
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #33,R0
@@ -4918,7 +4918,7 @@ T26:
 	MVO R4,_screen
 T27:
 	;[290]     IF CONT1 = KEYPAD_4 THEN PRINT AT SCREENPOS(2, 3) COLOR CS_RED, "4" ELSE PRINT AT SCREENPOS(2, 3) COLOR CS_WHITE, "4" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",290
+	SRCFILE "IntvTouch-Ctrl-Test.bas",290
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #130,R0
@@ -4945,7 +4945,7 @@ T28:
 	MVO R4,_screen
 T29:
 	;[291]     IF CONT1 = KEYPAD_5 THEN PRINT AT SCREENPOS(4, 3) COLOR CS_RED, "5" ELSE PRINT AT SCREENPOS(4, 3) COLOR CS_WHITE, "5" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",291
+	SRCFILE "IntvTouch-Ctrl-Test.bas",291
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #66,R0
@@ -4972,7 +4972,7 @@ T30:
 	MVO R4,_screen
 T31:
 	;[292]     IF CONT1 = KEYPAD_6 THEN PRINT AT SCREENPOS(6, 3) COLOR CS_RED, "6" ELSE PRINT AT SCREENPOS(6, 3) COLOR CS_WHITE, "6" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",292
+	SRCFILE "IntvTouch-Ctrl-Test.bas",292
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #34,R0
@@ -4999,7 +4999,7 @@ T32:
 	MVO R4,_screen
 T33:
 	;[293]     IF CONT1 = KEYPAD_7 THEN PRINT AT SCREENPOS(2, 4) COLOR CS_RED, "7" ELSE PRINT AT SCREENPOS(2, 4) COLOR CS_WHITE, "7" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",293
+	SRCFILE "IntvTouch-Ctrl-Test.bas",293
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #132,R0
@@ -5026,7 +5026,7 @@ T34:
 	MVO R4,_screen
 T35:
 	;[294]     IF CONT1 = KEYPAD_8 THEN PRINT AT SCREENPOS(4, 4) COLOR CS_RED, "8" ELSE PRINT AT SCREENPOS(4, 4) COLOR CS_WHITE, "8" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",294
+	SRCFILE "IntvTouch-Ctrl-Test.bas",294
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #68,R0
@@ -5053,7 +5053,7 @@ T36:
 	MVO R4,_screen
 T37:
 	;[295]     IF CONT1 = KEYPAD_9 THEN PRINT AT SCREENPOS(6, 4) COLOR CS_RED, "9" ELSE PRINT AT SCREENPOS(6, 4) COLOR CS_WHITE, "9" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",295
+	SRCFILE "IntvTouch-Ctrl-Test.bas",295
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #36,R0
@@ -5080,7 +5080,7 @@ T38:
 	MVO R4,_screen
 T39:
 	;[296]     IF CONT1 = KEYPAD_CLEAR THEN PRINT AT SCREENPOS(2, 5) COLOR CS_RED, "C" ELSE PRINT AT SCREENPOS(2, 5) COLOR CS_WHITE, "C" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",296
+	SRCFILE "IntvTouch-Ctrl-Test.bas",296
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #136,R0
@@ -5107,7 +5107,7 @@ T40:
 	MVO R4,_screen
 T41:
 	;[297]     IF CONT1 = KEYPAD_0 THEN PRINT AT SCREENPOS(4, 5) COLOR CS_RED, "0" ELSE PRINT AT SCREENPOS(4, 5) COLOR CS_WHITE, "0" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",297
+	SRCFILE "IntvTouch-Ctrl-Test.bas",297
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #72,R0
@@ -5134,7 +5134,7 @@ T42:
 	MVO R4,_screen
 T43:
 	;[298]     IF CONT1 = KEYPAD_ENTER THEN PRINT AT SCREENPOS(6, 5) COLOR CS_RED, "E" ELSE PRINT AT SCREENPOS(6, 5) COLOR CS_WHITE, "E" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",298
+	SRCFILE "IntvTouch-Ctrl-Test.bas",298
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #40,R0
@@ -5161,7 +5161,7 @@ T44:
 	MVO R4,_screen
 T45:
 	;[299]     IF CONT1 = BUTTON_1 THEN PRINT AT SCREENPOS(1, 6) COLOR CS_RED, "F" : PRINT AT SCREENPOS(7, 6) COLOR CS_RED, "F"  ELSE PRINT AT SCREENPOS(1, 6) COLOR CS_WHITE, "F" : PRINT AT SCREENPOS(7, 6) COLOR CS_WHITE, "F"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",299
+	SRCFILE "IntvTouch-Ctrl-Test.bas",299
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #160,R0
@@ -5206,7 +5206,7 @@ T46:
 	MVO R4,_screen
 T47:
 	;[300]     IF CONT1 = BUTTON_2 THEN PRINT AT SCREENPOS(1, 7) COLOR CS_RED, "L" ELSE PRINT AT SCREENPOS(1, 7) COLOR CS_WHITE, "L" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",300
+	SRCFILE "IntvTouch-Ctrl-Test.bas",300
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #96,R0
@@ -5233,7 +5233,7 @@ T48:
 	MVO R4,_screen
 T49:
 	;[301]     IF CONT1 = BUTTON_3 THEN PRINT AT SCREENPOS(7, 7) COLOR CS_RED, "R" ELSE PRINT AT SCREENPOS(7, 7) COLOR CS_WHITE, "R" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",301
+	SRCFILE "IntvTouch-Ctrl-Test.bas",301
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #192,R0
@@ -5260,7 +5260,7 @@ T50:
 	MVO R4,_screen
 T51:
 	;[302]     IF CONT1 = KEYPAD_PAUSE THEN PRINT AT SCREENPOS(2,11) COLOR CS_RED, "PAUSE" ELSE PRINT AT SCREENPOS(2,11) COLOR CS_WHITE, "PAUSE" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",302
+	SRCFILE "IntvTouch-Ctrl-Test.bas",302
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #165,R0
@@ -5303,13 +5303,13 @@ T52:
 	MVO R4,_screen
 T53:
 	;[303]     
-	SRCFILE "IntvTouch_Ctrl_Test.bas",303
+	SRCFILE "IntvTouch-Ctrl-Test.bas",303
 	;[304]     direcao1 = 0    
-	SRCFILE "IntvTouch_Ctrl_Test.bas",304
+	SRCFILE "IntvTouch-Ctrl-Test.bas",304
 	CLRR R0
 	MVO R0,var_DIRECAO1
 	;[305]     IF CONT1 = DISC_N     THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "01" : direcao1 = 1 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",305
+	SRCFILE "IntvTouch-Ctrl-Test.bas",305
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #4,R0
@@ -5329,7 +5329,7 @@ T53:
 	MVO R0,var_DIRECAO1
 T54:
 	;[306]     IF CONT1 = DISC_NNE   THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "02" : direcao1 = 2
-	SRCFILE "IntvTouch_Ctrl_Test.bas",306
+	SRCFILE "IntvTouch-Ctrl-Test.bas",306
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #20,R0
@@ -5349,7 +5349,7 @@ T54:
 	MVO R0,var_DIRECAO1
 T55:
 	;[307]     IF CONT1 = DISC_NE    THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "03" : direcao1 = 3
-	SRCFILE "IntvTouch_Ctrl_Test.bas",307
+	SRCFILE "IntvTouch-Ctrl-Test.bas",307
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #22,R0
@@ -5369,7 +5369,7 @@ T55:
 	MVO R0,var_DIRECAO1
 T56:
 	;[308]     IF CONT1 = DISC_ENE   THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "04" : direcao1 = 4
-	SRCFILE "IntvTouch_Ctrl_Test.bas",308
+	SRCFILE "IntvTouch-Ctrl-Test.bas",308
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #6,R0
@@ -5389,7 +5389,7 @@ T56:
 	MVO R0,var_DIRECAO1
 T57:
 	;[309]     IF CONT1 = DISC_EAST  THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "05" : direcao1 = 5
-	SRCFILE "IntvTouch_Ctrl_Test.bas",309
+	SRCFILE "IntvTouch-Ctrl-Test.bas",309
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #2,R0
@@ -5409,7 +5409,7 @@ T57:
 	MVO R0,var_DIRECAO1
 T58:
 	;[310]     IF CONT1 = DISC_ESE   THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "06" : direcao1 = 6
-	SRCFILE "IntvTouch_Ctrl_Test.bas",310
+	SRCFILE "IntvTouch-Ctrl-Test.bas",310
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #18,R0
@@ -5429,7 +5429,7 @@ T58:
 	MVO R0,var_DIRECAO1
 T59:
 	;[311]     IF CONT1 = DISC_SE    THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "07" : direcao1 = 7
-	SRCFILE "IntvTouch_Ctrl_Test.bas",311
+	SRCFILE "IntvTouch-Ctrl-Test.bas",311
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #19,R0
@@ -5449,7 +5449,7 @@ T59:
 	MVO R0,var_DIRECAO1
 T60:
 	;[312]     IF CONT1 = DISC_SSE   THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "08" : direcao1 = 8
-	SRCFILE "IntvTouch_Ctrl_Test.bas",312
+	SRCFILE "IntvTouch-Ctrl-Test.bas",312
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #3,R0
@@ -5469,7 +5469,7 @@ T60:
 	MVO R0,var_DIRECAO1
 T61:
 	;[313]     IF CONT1 = DISC_SOUTH THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "09" : direcao1 = 9
-	SRCFILE "IntvTouch_Ctrl_Test.bas",313
+	SRCFILE "IntvTouch-Ctrl-Test.bas",313
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #1,R0
@@ -5489,7 +5489,7 @@ T61:
 	MVO R0,var_DIRECAO1
 T62:
 	;[314]     IF CONT1 = DISC_SSW   THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "10" : direcao1 = 10
-	SRCFILE "IntvTouch_Ctrl_Test.bas",314
+	SRCFILE "IntvTouch-Ctrl-Test.bas",314
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #17,R0
@@ -5509,7 +5509,7 @@ T62:
 	MVO R0,var_DIRECAO1
 T63:
 	;[315]     IF CONT1 = DISC_SW    THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "11" : direcao1 = 11
-	SRCFILE "IntvTouch_Ctrl_Test.bas",315
+	SRCFILE "IntvTouch-Ctrl-Test.bas",315
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #25,R0
@@ -5529,7 +5529,7 @@ T63:
 	MVO R0,var_DIRECAO1
 T64:
 	;[316]     IF CONT1 = DISC_WSW   THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "12" : direcao1 = 12
-	SRCFILE "IntvTouch_Ctrl_Test.bas",316
+	SRCFILE "IntvTouch-Ctrl-Test.bas",316
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #9,R0
@@ -5549,7 +5549,7 @@ T64:
 	MVO R0,var_DIRECAO1
 T65:
 	;[317]     IF CONT1 = DISC_WEST  THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "13" : direcao1 = 13
-	SRCFILE "IntvTouch_Ctrl_Test.bas",317
+	SRCFILE "IntvTouch-Ctrl-Test.bas",317
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #8,R0
@@ -5569,7 +5569,7 @@ T65:
 	MVO R0,var_DIRECAO1
 T66:
 	;[318]     IF CONT1 = DISC_WNW   THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "14" : direcao1 = 14
-	SRCFILE "IntvTouch_Ctrl_Test.bas",318
+	SRCFILE "IntvTouch-Ctrl-Test.bas",318
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #24,R0
@@ -5589,7 +5589,7 @@ T66:
 	MVO R0,var_DIRECAO1
 T67:
 	;[319]     IF CONT1 = DISC_NW    THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "15" : direcao1 = 15
-	SRCFILE "IntvTouch_Ctrl_Test.bas",319
+	SRCFILE "IntvTouch-Ctrl-Test.bas",319
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #28,R0
@@ -5609,7 +5609,7 @@ T67:
 	MVO R0,var_DIRECAO1
 T68:
 	;[320]     IF CONT1 = DISC_NNW   THEN PRINT AT SCREENPOS(4,8) COLOR CS_RED, "16" : direcao1 = 16
-	SRCFILE "IntvTouch_Ctrl_Test.bas",320
+	SRCFILE "IntvTouch-Ctrl-Test.bas",320
 	MVI 511,R0
 	XORI #255,R0
 	CMPI #12,R0
@@ -5629,7 +5629,7 @@ T68:
 	MVO R0,var_DIRECAO1
 T69:
 	;[321]     IF direcao1 = 0 THEN PRINT AT SCREENPOS(4,8) COLOR CS_WHITE, "  " '"00"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",321
+	SRCFILE "IntvTouch-Ctrl-Test.bas",321
 	MVI var_DIRECAO1,R0
 	TSTR R0
 	BNE T70
@@ -5644,17 +5644,17 @@ T69:
 	MVO R4,_screen
 T70:
 	;[322] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",322
+	SRCFILE "IntvTouch-Ctrl-Test.bas",322
 	;[323]     Px1 = 40
-	SRCFILE "IntvTouch_Ctrl_Test.bas",323
+	SRCFILE "IntvTouch-Ctrl-Test.bas",323
 	MVII #40,R0
 	MVO R0,var_PX1
 	;[324]     Py1 = 72
-	SRCFILE "IntvTouch_Ctrl_Test.bas",324
+	SRCFILE "IntvTouch-Ctrl-Test.bas",324
 	MVII #72,R0
 	MVO R0,var_PY1
 	;[325]     IF direcao1 =  0 THEN Px1=Px1     : Py1=Py1 +00 : Pcor1 = CS_WHITE
-	SRCFILE "IntvTouch_Ctrl_Test.bas",325
+	SRCFILE "IntvTouch-Ctrl-Test.bas",325
 	MVI var_DIRECAO1,R0
 	TSTR R0
 	BNE T71
@@ -5666,7 +5666,7 @@ T70:
 	MVO R0,var_PCOR1
 T71:
 	;[326]     IF direcao1 =  1 THEN Px1=Px1 +00 : Py1=Py1 -12 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",326
+	SRCFILE "IntvTouch-Ctrl-Test.bas",326
 	MVI var_DIRECAO1,R0
 	CMPI #1,R0
 	BNE T72
@@ -5679,7 +5679,7 @@ T71:
 	MVO R0,var_PCOR1
 T72:
 	;[327]     IF direcao1 =  2 THEN Px1=Px1 +05 : Py1=Py1 -11 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",327
+	SRCFILE "IntvTouch-Ctrl-Test.bas",327
 	MVI var_DIRECAO1,R0
 	CMPI #2,R0
 	BNE T73
@@ -5693,7 +5693,7 @@ T72:
 	MVO R0,var_PCOR1
 T73:
 	;[328]     IF direcao1 =  3 THEN Px1=Px1 +10 : Py1=Py1 -09 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",328
+	SRCFILE "IntvTouch-Ctrl-Test.bas",328
 	MVI var_DIRECAO1,R0
 	CMPI #3,R0
 	BNE T74
@@ -5707,7 +5707,7 @@ T73:
 	MVO R0,var_PCOR1
 T74:
 	;[329]     IF direcao1 =  4 THEN Px1=Px1 +14 : Py1=Py1 -05 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",329
+	SRCFILE "IntvTouch-Ctrl-Test.bas",329
 	MVI var_DIRECAO1,R0
 	CMPI #4,R0
 	BNE T75
@@ -5721,7 +5721,7 @@ T74:
 	MVO R0,var_PCOR1
 T75:
 	;[330]     IF direcao1 =  5 THEN Px1=Px1 +15 : Py1=Py1 -00 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",330
+	SRCFILE "IntvTouch-Ctrl-Test.bas",330
 	MVI var_DIRECAO1,R0
 	CMPI #5,R0
 	BNE T76
@@ -5734,7 +5734,7 @@ T75:
 	MVO R0,var_PCOR1
 T76:
 	;[331]     IF direcao1 =  6 THEN Px1=Px1 +14 : Py1=Py1 +05 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",331
+	SRCFILE "IntvTouch-Ctrl-Test.bas",331
 	MVI var_DIRECAO1,R0
 	CMPI #6,R0
 	BNE T77
@@ -5748,7 +5748,7 @@ T76:
 	MVO R0,var_PCOR1
 T77:
 	;[332]     IF direcao1 =  7 THEN Px1=Px1 +10 : Py1=Py1 +08 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",332
+	SRCFILE "IntvTouch-Ctrl-Test.bas",332
 	MVI var_DIRECAO1,R0
 	CMPI #7,R0
 	BNE T78
@@ -5762,7 +5762,7 @@ T77:
 	MVO R0,var_PCOR1
 T78:
 	;[333]     IF direcao1 =  8 THEN Px1=Px1 +05 : Py1=Py1 +11 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",333
+	SRCFILE "IntvTouch-Ctrl-Test.bas",333
 	MVI var_DIRECAO1,R0
 	CMPI #8,R0
 	BNE T79
@@ -5776,7 +5776,7 @@ T78:
 	MVO R0,var_PCOR1
 T79:
 	;[334]     IF direcao1 =  9 THEN Px1=Px1 +00 : Py1=Py1 +12 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",334
+	SRCFILE "IntvTouch-Ctrl-Test.bas",334
 	MVI var_DIRECAO1,R0
 	CMPI #9,R0
 	BNE T80
@@ -5789,7 +5789,7 @@ T79:
 	MVO R0,var_PCOR1
 T80:
 	;[335]     IF direcao1 = 10 THEN Px1=Px1 -05 : Py1=Py1 +11 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",335
+	SRCFILE "IntvTouch-Ctrl-Test.bas",335
 	MVI var_DIRECAO1,R0
 	CMPI #10,R0
 	BNE T81
@@ -5803,7 +5803,7 @@ T80:
 	MVO R0,var_PCOR1
 T81:
 	;[336]     IF direcao1 = 11 THEN Px1=Px1 -10 : Py1=Py1 +08 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",336
+	SRCFILE "IntvTouch-Ctrl-Test.bas",336
 	MVI var_DIRECAO1,R0
 	CMPI #11,R0
 	BNE T82
@@ -5817,7 +5817,7 @@ T81:
 	MVO R0,var_PCOR1
 T82:
 	;[337]     IF direcao1 = 12 THEN Px1=Px1 -14 : Py1=Py1 +05 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",337
+	SRCFILE "IntvTouch-Ctrl-Test.bas",337
 	MVI var_DIRECAO1,R0
 	CMPI #12,R0
 	BNE T83
@@ -5831,7 +5831,7 @@ T82:
 	MVO R0,var_PCOR1
 T83:
 	;[338]     IF direcao1 = 13 THEN Px1=Px1 -15 : Py1=Py1 +00 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",338
+	SRCFILE "IntvTouch-Ctrl-Test.bas",338
 	MVI var_DIRECAO1,R0
 	CMPI #13,R0
 	BNE T84
@@ -5844,7 +5844,7 @@ T83:
 	MVO R0,var_PCOR1
 T84:
 	;[339]     IF direcao1 = 14 THEN Px1=Px1 -14 : Py1=Py1 -05 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",339
+	SRCFILE "IntvTouch-Ctrl-Test.bas",339
 	MVI var_DIRECAO1,R0
 	CMPI #14,R0
 	BNE T85
@@ -5858,7 +5858,7 @@ T84:
 	MVO R0,var_PCOR1
 T85:
 	;[340]     IF direcao1 = 15 THEN Px1=Px1 -10 : Py1=Py1 -09 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",340
+	SRCFILE "IntvTouch-Ctrl-Test.bas",340
 	MVI var_DIRECAO1,R0
 	CMPI #15,R0
 	BNE T86
@@ -5872,7 +5872,7 @@ T85:
 	MVO R0,var_PCOR1
 T86:
 	;[341]     IF direcao1 = 16 THEN Px1=Px1 -05 : Py1=Py1 -11 : Pcor1 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",341
+	SRCFILE "IntvTouch-Ctrl-Test.bas",341
 	MVI var_DIRECAO1,R0
 	CMPI #16,R0
 	BNE T87
@@ -5886,9 +5886,9 @@ T86:
 	MVO R0,var_PCOR1
 T87:
 	;[342] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",342
+	SRCFILE "IntvTouch-Ctrl-Test.bas",342
 	;[343]     SPRITE 0, Px1 + VISIBLE, Py1 + ZOOMY2, SPR09 + Pcor1 + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",343
+	SRCFILE "IntvTouch-Ctrl-Test.bas",343
 	MVI var_PX1,R0
 	ADDI #512,R0
 	MVO R0,_mobs
@@ -5899,11 +5899,11 @@ T87:
 	ADDI #10312,R0
 	MVO R0,_mobs+16
 	;[344] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",344
+	SRCFILE "IntvTouch-Ctrl-Test.bas",344
 	;[345] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",345
+	SRCFILE "IntvTouch-Ctrl-Test.bas",345
 	;[346]     IF CONT2 = KEYPAD_1 THEN PRINT AT SCREENPOS(13, 2) COLOR CS_RED, "1" ELSE PRINT AT SCREENPOS(13, 2) COLOR CS_WHITE, "1" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",346
+	SRCFILE "IntvTouch-Ctrl-Test.bas",346
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #129,R0
@@ -5930,7 +5930,7 @@ T88:
 	MVO R4,_screen
 T89:
 	;[347]     IF CONT2 = KEYPAD_2 THEN PRINT AT SCREENPOS(15, 2) COLOR CS_RED, "2" ELSE PRINT AT SCREENPOS(15, 2) COLOR CS_WHITE, "2" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",347
+	SRCFILE "IntvTouch-Ctrl-Test.bas",347
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #65,R0
@@ -5957,7 +5957,7 @@ T90:
 	MVO R4,_screen
 T91:
 	;[348]     IF CONT2 = KEYPAD_3 THEN PRINT AT SCREENPOS(17, 2) COLOR CS_RED, "3" ELSE PRINT AT SCREENPOS(17, 2) COLOR CS_WHITE, "3" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",348
+	SRCFILE "IntvTouch-Ctrl-Test.bas",348
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #33,R0
@@ -5984,7 +5984,7 @@ T92:
 	MVO R4,_screen
 T93:
 	;[349]     IF CONT2 = KEYPAD_4 THEN PRINT AT SCREENPOS(13, 3) COLOR CS_RED, "4" ELSE PRINT AT SCREENPOS(13, 3) COLOR CS_WHITE, "4" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",349
+	SRCFILE "IntvTouch-Ctrl-Test.bas",349
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #130,R0
@@ -6011,7 +6011,7 @@ T94:
 	MVO R4,_screen
 T95:
 	;[350]     IF CONT2 = KEYPAD_5 THEN PRINT AT SCREENPOS(15, 3) COLOR CS_RED, "5" ELSE PRINT AT SCREENPOS(15, 3) COLOR CS_WHITE, "5" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",350
+	SRCFILE "IntvTouch-Ctrl-Test.bas",350
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #66,R0
@@ -6038,7 +6038,7 @@ T96:
 	MVO R4,_screen
 T97:
 	;[351]     IF CONT2 = KEYPAD_6 THEN PRINT AT SCREENPOS(17, 3) COLOR CS_RED, "6" ELSE PRINT AT SCREENPOS(17, 3) COLOR CS_WHITE, "6" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",351
+	SRCFILE "IntvTouch-Ctrl-Test.bas",351
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #34,R0
@@ -6065,7 +6065,7 @@ T98:
 	MVO R4,_screen
 T99:
 	;[352]     IF CONT2 = KEYPAD_7 THEN PRINT AT SCREENPOS(13, 4) COLOR CS_RED, "7" ELSE PRINT AT SCREENPOS(13, 4) COLOR CS_WHITE, "7" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",352
+	SRCFILE "IntvTouch-Ctrl-Test.bas",352
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #132,R0
@@ -6092,7 +6092,7 @@ T100:
 	MVO R4,_screen
 T101:
 	;[353]     IF CONT2 = KEYPAD_8 THEN PRINT AT SCREENPOS(15, 4) COLOR CS_RED, "8" ELSE PRINT AT SCREENPOS(15, 4) COLOR CS_WHITE, "8" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",353
+	SRCFILE "IntvTouch-Ctrl-Test.bas",353
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #68,R0
@@ -6119,7 +6119,7 @@ T102:
 	MVO R4,_screen
 T103:
 	;[354]     IF CONT2 = KEYPAD_9 THEN PRINT AT SCREENPOS(17, 4) COLOR CS_RED, "9" ELSE PRINT AT SCREENPOS(17, 4) COLOR CS_WHITE, "9" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",354
+	SRCFILE "IntvTouch-Ctrl-Test.bas",354
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #36,R0
@@ -6146,7 +6146,7 @@ T104:
 	MVO R4,_screen
 T105:
 	;[355]     IF CONT2 = KEYPAD_CLEAR THEN PRINT AT SCREENPOS(13, 5) COLOR CS_RED, "C" ELSE PRINT AT SCREENPOS(13, 5) COLOR CS_WHITE, "C" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",355
+	SRCFILE "IntvTouch-Ctrl-Test.bas",355
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #136,R0
@@ -6173,7 +6173,7 @@ T106:
 	MVO R4,_screen
 T107:
 	;[356]     IF CONT2 = KEYPAD_0 THEN PRINT AT SCREENPOS(15, 5) COLOR CS_RED, "0" ELSE PRINT AT SCREENPOS(15, 5) COLOR CS_WHITE, "0" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",356
+	SRCFILE "IntvTouch-Ctrl-Test.bas",356
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #72,R0
@@ -6200,7 +6200,7 @@ T108:
 	MVO R4,_screen
 T109:
 	;[357]     IF CONT2 = KEYPAD_ENTER THEN PRINT AT SCREENPOS(17, 5) COLOR CS_RED, "E" ELSE PRINT AT SCREENPOS(17, 5) COLOR CS_WHITE, "E" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",357
+	SRCFILE "IntvTouch-Ctrl-Test.bas",357
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #40,R0
@@ -6227,7 +6227,7 @@ T110:
 	MVO R4,_screen
 T111:
 	;[358]     IF CONT2 = BUTTON_1 THEN PRINT AT SCREENPOS(12, 6) COLOR CS_RED, "F" : PRINT AT SCREENPOS(18, 6) COLOR CS_RED, "F"  ELSE PRINT AT SCREENPOS(12, 6) COLOR CS_WHITE, "F" : PRINT AT SCREENPOS(18, 6) COLOR CS_WHITE, "F"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",358
+	SRCFILE "IntvTouch-Ctrl-Test.bas",358
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #160,R0
@@ -6272,7 +6272,7 @@ T112:
 	MVO R4,_screen
 T113:
 	;[359]     IF CONT2 = BUTTON_2 THEN PRINT AT SCREENPOS(12, 7) COLOR CS_RED, "L" ELSE PRINT AT SCREENPOS(12, 7) COLOR CS_WHITE, "L" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",359
+	SRCFILE "IntvTouch-Ctrl-Test.bas",359
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #96,R0
@@ -6299,7 +6299,7 @@ T114:
 	MVO R4,_screen
 T115:
 	;[360]     IF CONT2 = BUTTON_3 THEN PRINT AT SCREENPOS(18, 7) COLOR CS_RED, "R" ELSE PRINT AT SCREENPOS(18, 7) COLOR CS_WHITE, "R" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",360
+	SRCFILE "IntvTouch-Ctrl-Test.bas",360
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #192,R0
@@ -6326,7 +6326,7 @@ T116:
 	MVO R4,_screen
 T117:
 	;[361]     IF CONT2 = KEYPAD_PAUSE THEN PRINT AT SCREENPOS(13,11) COLOR CS_RED, "PAUSE" ELSE PRINT AT SCREENPOS(13,11) COLOR CS_WHITE, "PAUSE" 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",361
+	SRCFILE "IntvTouch-Ctrl-Test.bas",361
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #165,R0
@@ -6369,13 +6369,13 @@ T118:
 	MVO R4,_screen
 T119:
 	;[362]     
-	SRCFILE "IntvTouch_Ctrl_Test.bas",362
+	SRCFILE "IntvTouch-Ctrl-Test.bas",362
 	;[363]     direcao2 = 0    
-	SRCFILE "IntvTouch_Ctrl_Test.bas",363
+	SRCFILE "IntvTouch-Ctrl-Test.bas",363
 	CLRR R0
 	MVO R0,var_DIRECAO2
 	;[364]     IF CONT2 = DISC_N     THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "01" : direcao2 = 1 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",364
+	SRCFILE "IntvTouch-Ctrl-Test.bas",364
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #4,R0
@@ -6395,7 +6395,7 @@ T119:
 	MVO R0,var_DIRECAO2
 T120:
 	;[365]     IF CONT2 = DISC_NNE   THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "02" : direcao2 = 2
-	SRCFILE "IntvTouch_Ctrl_Test.bas",365
+	SRCFILE "IntvTouch-Ctrl-Test.bas",365
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #20,R0
@@ -6415,7 +6415,7 @@ T120:
 	MVO R0,var_DIRECAO2
 T121:
 	;[366]     IF CONT2 = DISC_NE    THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "03" : direcao2 = 3
-	SRCFILE "IntvTouch_Ctrl_Test.bas",366
+	SRCFILE "IntvTouch-Ctrl-Test.bas",366
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #22,R0
@@ -6435,7 +6435,7 @@ T121:
 	MVO R0,var_DIRECAO2
 T122:
 	;[367]     IF CONT2 = DISC_ENE   THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "04" : direcao2 = 4
-	SRCFILE "IntvTouch_Ctrl_Test.bas",367
+	SRCFILE "IntvTouch-Ctrl-Test.bas",367
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #6,R0
@@ -6455,7 +6455,7 @@ T122:
 	MVO R0,var_DIRECAO2
 T123:
 	;[368]     IF CONT2 = DISC_EAST  THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "05" : direcao2 = 5
-	SRCFILE "IntvTouch_Ctrl_Test.bas",368
+	SRCFILE "IntvTouch-Ctrl-Test.bas",368
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #2,R0
@@ -6475,7 +6475,7 @@ T123:
 	MVO R0,var_DIRECAO2
 T124:
 	;[369]     IF CONT2 = DISC_ESE   THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "06" : direcao2 = 6
-	SRCFILE "IntvTouch_Ctrl_Test.bas",369
+	SRCFILE "IntvTouch-Ctrl-Test.bas",369
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #18,R0
@@ -6495,7 +6495,7 @@ T124:
 	MVO R0,var_DIRECAO2
 T125:
 	;[370]     IF CONT2 = DISC_SE    THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "07" : direcao2 = 7
-	SRCFILE "IntvTouch_Ctrl_Test.bas",370
+	SRCFILE "IntvTouch-Ctrl-Test.bas",370
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #19,R0
@@ -6515,7 +6515,7 @@ T125:
 	MVO R0,var_DIRECAO2
 T126:
 	;[371]     IF CONT2 = DISC_SSE   THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "08" : direcao2 = 8
-	SRCFILE "IntvTouch_Ctrl_Test.bas",371
+	SRCFILE "IntvTouch-Ctrl-Test.bas",371
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #3,R0
@@ -6535,7 +6535,7 @@ T126:
 	MVO R0,var_DIRECAO2
 T127:
 	;[372]     IF CONT2 = DISC_SOUTH THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "09" : direcao2 = 9
-	SRCFILE "IntvTouch_Ctrl_Test.bas",372
+	SRCFILE "IntvTouch-Ctrl-Test.bas",372
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #1,R0
@@ -6555,7 +6555,7 @@ T127:
 	MVO R0,var_DIRECAO2
 T128:
 	;[373]     IF CONT2 = DISC_SSW   THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "10" : direcao2 = 10
-	SRCFILE "IntvTouch_Ctrl_Test.bas",373
+	SRCFILE "IntvTouch-Ctrl-Test.bas",373
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #17,R0
@@ -6575,7 +6575,7 @@ T128:
 	MVO R0,var_DIRECAO2
 T129:
 	;[374]     IF CONT2 = DISC_SW    THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "11" : direcao2 = 11
-	SRCFILE "IntvTouch_Ctrl_Test.bas",374
+	SRCFILE "IntvTouch-Ctrl-Test.bas",374
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #25,R0
@@ -6595,7 +6595,7 @@ T129:
 	MVO R0,var_DIRECAO2
 T130:
 	;[375]     IF CONT2 = DISC_WSW   THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "12" : direcao2 = 12
-	SRCFILE "IntvTouch_Ctrl_Test.bas",375
+	SRCFILE "IntvTouch-Ctrl-Test.bas",375
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #9,R0
@@ -6615,7 +6615,7 @@ T130:
 	MVO R0,var_DIRECAO2
 T131:
 	;[376]     IF CONT2 = DISC_WEST  THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "13" : direcao2 = 13
-	SRCFILE "IntvTouch_Ctrl_Test.bas",376
+	SRCFILE "IntvTouch-Ctrl-Test.bas",376
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #8,R0
@@ -6635,7 +6635,7 @@ T131:
 	MVO R0,var_DIRECAO2
 T132:
 	;[377]     IF CONT2 = DISC_WNW   THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "14" : direcao2 = 14
-	SRCFILE "IntvTouch_Ctrl_Test.bas",377
+	SRCFILE "IntvTouch-Ctrl-Test.bas",377
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #24,R0
@@ -6655,7 +6655,7 @@ T132:
 	MVO R0,var_DIRECAO2
 T133:
 	;[378]     IF CONT2 = DISC_NW    THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "15" : direcao2 = 15
-	SRCFILE "IntvTouch_Ctrl_Test.bas",378
+	SRCFILE "IntvTouch-Ctrl-Test.bas",378
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #28,R0
@@ -6675,7 +6675,7 @@ T133:
 	MVO R0,var_DIRECAO2
 T134:
 	;[379]     IF CONT2 = DISC_NNW   THEN PRINT AT SCREENPOS(15,8) COLOR CS_RED, "16" : direcao2 = 16
-	SRCFILE "IntvTouch_Ctrl_Test.bas",379
+	SRCFILE "IntvTouch-Ctrl-Test.bas",379
 	MVI 510,R0
 	XORI #255,R0
 	CMPI #12,R0
@@ -6695,7 +6695,7 @@ T134:
 	MVO R0,var_DIRECAO2
 T135:
 	;[380]     IF direcao2 = 0 THEN PRINT AT SCREENPOS(15,8) COLOR CS_WHITE, "  " '"00"
-	SRCFILE "IntvTouch_Ctrl_Test.bas",380
+	SRCFILE "IntvTouch-Ctrl-Test.bas",380
 	MVI var_DIRECAO2,R0
 	TSTR R0
 	BNE T136
@@ -6710,17 +6710,17 @@ T135:
 	MVO R4,_screen
 T136:
 	;[381] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",381
+	SRCFILE "IntvTouch-Ctrl-Test.bas",381
 	;[382]     Px2 = 128 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",382
+	SRCFILE "IntvTouch-Ctrl-Test.bas",382
 	MVII #128,R0
 	MVO R0,var_PX2
 	;[383]     Py2 = 200 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",383
+	SRCFILE "IntvTouch-Ctrl-Test.bas",383
 	MVII #200,R0
 	MVO R0,var_PY2
 	;[384]     IF direcao2 =  0 THEN Px2=Px2     : Py2=Py2 +00 : Pcor2 = CS_WHITE
-	SRCFILE "IntvTouch_Ctrl_Test.bas",384
+	SRCFILE "IntvTouch-Ctrl-Test.bas",384
 	MVI var_DIRECAO2,R0
 	TSTR R0
 	BNE T137
@@ -6732,7 +6732,7 @@ T136:
 	MVO R0,var_PCOR2
 T137:
 	;[385]     IF direcao2 =  1 THEN Px2=Px2 +00 : Py2=Py2 -12 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",385
+	SRCFILE "IntvTouch-Ctrl-Test.bas",385
 	MVI var_DIRECAO2,R0
 	CMPI #1,R0
 	BNE T138
@@ -6745,7 +6745,7 @@ T137:
 	MVO R0,var_PCOR2
 T138:
 	;[386]     IF direcao2 =  2 THEN Px2=Px2 +05 : Py2=Py2 -11 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",386
+	SRCFILE "IntvTouch-Ctrl-Test.bas",386
 	MVI var_DIRECAO2,R0
 	CMPI #2,R0
 	BNE T139
@@ -6759,7 +6759,7 @@ T138:
 	MVO R0,var_PCOR2
 T139:
 	;[387]     IF direcao2 =  3 THEN Px2=Px2 +10 : Py2=Py2 -09 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",387
+	SRCFILE "IntvTouch-Ctrl-Test.bas",387
 	MVI var_DIRECAO2,R0
 	CMPI #3,R0
 	BNE T140
@@ -6773,7 +6773,7 @@ T139:
 	MVO R0,var_PCOR2
 T140:
 	;[388]     IF direcao2 =  4 THEN Px2=Px2 +14 : Py2=Py2 -05 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",388
+	SRCFILE "IntvTouch-Ctrl-Test.bas",388
 	MVI var_DIRECAO2,R0
 	CMPI #4,R0
 	BNE T141
@@ -6787,7 +6787,7 @@ T140:
 	MVO R0,var_PCOR2
 T141:
 	;[389]     IF direcao2 =  5 THEN Px2=Px2 +15 : Py2=Py2 -00 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",389
+	SRCFILE "IntvTouch-Ctrl-Test.bas",389
 	MVI var_DIRECAO2,R0
 	CMPI #5,R0
 	BNE T142
@@ -6800,7 +6800,7 @@ T141:
 	MVO R0,var_PCOR2
 T142:
 	;[390]     IF direcao2 =  6 THEN Px2=Px2 +14 : Py2=Py2 +05 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",390
+	SRCFILE "IntvTouch-Ctrl-Test.bas",390
 	MVI var_DIRECAO2,R0
 	CMPI #6,R0
 	BNE T143
@@ -6814,7 +6814,7 @@ T142:
 	MVO R0,var_PCOR2
 T143:
 	;[391]     IF direcao2 =  7 THEN Px2=Px2 +10 : Py2=Py2 +08 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",391
+	SRCFILE "IntvTouch-Ctrl-Test.bas",391
 	MVI var_DIRECAO2,R0
 	CMPI #7,R0
 	BNE T144
@@ -6828,7 +6828,7 @@ T143:
 	MVO R0,var_PCOR2
 T144:
 	;[392]     IF direcao2 =  8 THEN Px2=Px2 +05 : Py2=Py2 +11 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",392
+	SRCFILE "IntvTouch-Ctrl-Test.bas",392
 	MVI var_DIRECAO2,R0
 	CMPI #8,R0
 	BNE T145
@@ -6842,7 +6842,7 @@ T144:
 	MVO R0,var_PCOR2
 T145:
 	;[393]     IF direcao2 =  9 THEN Px2=Px2 +00 : Py2=Py2 +12 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",393
+	SRCFILE "IntvTouch-Ctrl-Test.bas",393
 	MVI var_DIRECAO2,R0
 	CMPI #9,R0
 	BNE T146
@@ -6855,7 +6855,7 @@ T145:
 	MVO R0,var_PCOR2
 T146:
 	;[394]     IF direcao2 = 10 THEN Px2=Px2 -05 : Py2=Py2 +11 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",394
+	SRCFILE "IntvTouch-Ctrl-Test.bas",394
 	MVI var_DIRECAO2,R0
 	CMPI #10,R0
 	BNE T147
@@ -6869,7 +6869,7 @@ T146:
 	MVO R0,var_PCOR2
 T147:
 	;[395]     IF direcao2 = 11 THEN Px2=Px2 -10 : Py2=Py2 +08 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",395
+	SRCFILE "IntvTouch-Ctrl-Test.bas",395
 	MVI var_DIRECAO2,R0
 	CMPI #11,R0
 	BNE T148
@@ -6883,7 +6883,7 @@ T147:
 	MVO R0,var_PCOR2
 T148:
 	;[396]     IF direcao2 = 12 THEN Px2=Px2 -14 : Py2=Py2 +05 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",396
+	SRCFILE "IntvTouch-Ctrl-Test.bas",396
 	MVI var_DIRECAO2,R0
 	CMPI #12,R0
 	BNE T149
@@ -6897,7 +6897,7 @@ T148:
 	MVO R0,var_PCOR2
 T149:
 	;[397]     IF direcao2 = 13 THEN Px2=Px2 -15 : Py2=Py2 +00 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",397
+	SRCFILE "IntvTouch-Ctrl-Test.bas",397
 	MVI var_DIRECAO2,R0
 	CMPI #13,R0
 	BNE T150
@@ -6910,7 +6910,7 @@ T149:
 	MVO R0,var_PCOR2
 T150:
 	;[398]     IF direcao2 = 14 THEN Px2=Px2 -14 : Py2=Py2 -05 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",398
+	SRCFILE "IntvTouch-Ctrl-Test.bas",398
 	MVI var_DIRECAO2,R0
 	CMPI #14,R0
 	BNE T151
@@ -6924,7 +6924,7 @@ T150:
 	MVO R0,var_PCOR2
 T151:
 	;[399]     IF direcao2 = 15 THEN Px2=Px2 -10 : Py2=Py2 -09 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",399
+	SRCFILE "IntvTouch-Ctrl-Test.bas",399
 	MVI var_DIRECAO2,R0
 	CMPI #15,R0
 	BNE T152
@@ -6938,7 +6938,7 @@ T151:
 	MVO R0,var_PCOR2
 T152:
 	;[400]     IF direcao2 = 16 THEN Px2=Px2 -05 : Py2=Py2 -11 : Pcor2 = CS_RED
-	SRCFILE "IntvTouch_Ctrl_Test.bas",400
+	SRCFILE "IntvTouch-Ctrl-Test.bas",400
 	MVI var_DIRECAO2,R0
 	CMPI #16,R0
 	BNE T153
@@ -6952,13 +6952,13 @@ T152:
 	MVO R0,var_PCOR2
 T153:
 	;[401] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",401
+	SRCFILE "IntvTouch-Ctrl-Test.bas",401
 	;[402] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",402
+	SRCFILE "IntvTouch-Ctrl-Test.bas",402
 	;[403]     'SPRITE 1, Px2 + VISIBLE, Py2 + ZOOMY2 + DOUBLEY, SPR09 + Pcor2 + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",403
+	SRCFILE "IntvTouch-Ctrl-Test.bas",403
 	;[404]     SPRITE 1, Px2 + VISIBLE, Py2 +  DOUBLEY, SPR09 + Pcor2 + BEHIND
-	SRCFILE "IntvTouch_Ctrl_Test.bas",404
+	SRCFILE "IntvTouch-Ctrl-Test.bas",404
 	MVI var_PX2,R0
 	ADDI #512,R0
 	MVO R0,_mobs+1
@@ -6969,27 +6969,27 @@ T153:
 	ADDI #10312,R0
 	MVO R0,_mobs+17
 	;[405] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",405
+	SRCFILE "IntvTouch-Ctrl-Test.bas",405
 	;[406] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",406
+	SRCFILE "IntvTouch-Ctrl-Test.bas",406
 	;[407]     WAIT
-	SRCFILE "IntvTouch_Ctrl_Test.bas",407
+	SRCFILE "IntvTouch-Ctrl-Test.bas",407
 	CALL _wait
 	;[408] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",408
+	SRCFILE "IntvTouch-Ctrl-Test.bas",408
 	;[409] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",409
+	SRCFILE "IntvTouch-Ctrl-Test.bas",409
 	;[410] GOTO loopTeste
-	SRCFILE "IntvTouch_Ctrl_Test.bas",410
+	SRCFILE "IntvTouch-Ctrl-Test.bas",410
 	B label_LOOPTESTE
 	;[411] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",411
+	SRCFILE "IntvTouch-Ctrl-Test.bas",411
 	;[412] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",412
+	SRCFILE "IntvTouch-Ctrl-Test.bas",412
 	;[413] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",413
+	SRCFILE "IntvTouch-Ctrl-Test.bas",413
 	;[414] 
-	SRCFILE "IntvTouch_Ctrl_Test.bas",414
+	SRCFILE "IntvTouch-Ctrl-Test.bas",414
 	;ENDFILE
 	SRCFILE "",0
 	;

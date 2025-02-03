@@ -48,7 +48,7 @@ PRINT AT TextCenterPos( 10, 3 + 0) COLOR CS_RED, "MasterMIB"
 PRINT AT TextCenterPos( 10, 3 + 1) COLOR CS_GREEN, " presents"
 
 ' Print project-specific information
-PRINT AT TextCenterPos(LEN("InvtTouch") - 1,  6) COLOR CS_YELLOW, "InvtTouch"
+PRINT AT TextCenterPos(LEN("IntvTouch") - 1,  6) COLOR CS_YELLOW, "IntvTouch"
 
 PRINT AT TextCenterPos(LEN("controller test") - 1,  7) COLOR CS_TAN, "controller test"
 
